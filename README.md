@@ -18,12 +18,13 @@
 
 ### 🧑‍💻 About me
 
-I build robust, user-friendly software that solves real-world problems — from client websites and e-commerce
-platforms to large business systems. I care about clean architecture, sensible state management, and interfaces
-that people actually enjoy using.
+I build large, long-lived business systems — the kind with dozens of domain modules, real permission
+models and workflows that people depend on daily. Most of my work these days is **React 19 + TypeScript**
+front-ends on **Laravel** APIs, and I care a lot about clean architecture, sensible state management,
+and interfaces that people actually enjoy using.
 
-- 🔭 Currently building a **property management SPA** — React 19 + TypeScript + Vite on a Laravel REST API
-- 🌱 Always picking up new tools; lately deeper into **TypeScript** and modern React patterns
+- 🔭 Currently working across property management, B-BBEE compliance and supplier/driver platforms
+- 🌱 Going deeper into TypeScript, modern React patterns and API design
 - 🤝 I enjoy collaborating with other developers to make sure what we ship meets real business needs
 - ♟️ Outside of code: chess and documentaries
 
@@ -44,10 +45,10 @@ that people actually enjoy using.
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![React Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat-square&logo=inertia&logoColor=white)
-![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpinedotjs&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 **Backend & tooling**
@@ -55,27 +56,38 @@ that people actually enjoy using.
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?style=flat-square&logo=livewire&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-### 🚀 Things I've shipped
+### 🚀 What I'm building
 
-| | | |
-|---|---|---|
-| [goverify.co.za](https://goverify.co.za/) | [boxfusion.io](https://boxfusion.io/) | [thecxgroup.co.za](https://www.thecxgroup.co.za/) |
-| [touchsport.org](https://touchsport.org/) | [rushhome.co.za](https://rushhome.co.za/) | [pinkmeup.co.za](https://pinkmeup.co.za/) |
-| [linchpiness.com](https://linchpiness.com/) | [theyogallama.com](https://theyogallama.com/) | [cmdtravels.co.za](https://cmdtravels.co.za/) |
-| [shop.proudlysa.co.za](https://shop.proudlysa.co.za/) | [theboardmemberglobal.com](https://theboardmemberglobal.com/) | [foodbev.co.za](http://foodbev.co.za/) |
-| [womenleadership.org.za](https://womenleadership.org.za/) | [lightofnationyouth.org.za](https://lightofnationyouth.org.za/) | [vaalpac.co.za](https://vaalpac.co.za/) |
+> These are private, client-owned systems, so there's no public repo — here's what they do.
 
-### 📦 Open source
+**🏢 Property Management Platform**
+A property management SPA with **65+ domain modules** — work orders, invoicing, reservations and
+check-ins, municipal billing and meter readings, POS and cash-up, asset registers, housekeeping,
+statements and maintenance scheduling. React 19 + TypeScript + Vite on a Laravel REST API, with
+role/permission-gated routing, TanStack Query for all server state, and React Hook Form + Zod forms.
 
-- **[maz-tooltip](https://github.com/mazisi/maz-tooltip)** — Vue 3 tooltip library built on Tippy.js
-- **[mazisi-vue-utils](https://github.com/mazisi/mazisi-vue-utils)** — reusable Vue composables
-- **[shophub-ecommerce-platform](https://github.com/mazisi/shophub-ecommerce-platform)** — TypeScript e-commerce platform
+**📊 B-BBEE Compliance System**
+A compliance platform covering the full B-BBEE scorecard — ownership, management control, skills
+development (WSP, SETA, OFO codes), enterprise & supplier development, and socio-economic development.
+Includes a guided client wizard, a compliance calendar, evidence capture, verification agencies and
+automated verification-pack generation with Excel/Word export.
+
+**🍽️ Dial A Meal Supplier Portal**
+A supplier and operations portal built around a dynamic form builder and renderer — suppliers,
+facilities and locations, SOPs, teams and departments, TPP services, QR-based capture, activity and
+change logs, and granular RBAC. Deployed to AWS via Docker.
+
+**🚚 Driver Recruitment & Compliance**
+A multi-agency driver application portal: each recruitment agency gets its own slug-based public
+"skin" of the application flow, with UTM link tracking, per-section overrides and per-agency publishing.
+Pairs with driver compliance — document capture, MRD verification and independent-contractor onboarding.
 
 ---
 
