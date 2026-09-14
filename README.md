@@ -94,8 +94,8 @@ Pairs with driver compliance — document capture, MRD verification and independ
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mazisi&show_icons=true&hide_border=true&theme=tokyonight" alt="Mazisi's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazisi&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mazisi&theme=tokyonight" alt="Mazisi's GitHub stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mazisi&theme=tokyonight" alt="Top languages" />
 </p>
 
 ---
